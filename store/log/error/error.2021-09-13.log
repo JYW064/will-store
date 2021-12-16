@@ -1,0 +1,277 @@
+2021-09-13 14:23:46 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 21248 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 14:23:46 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 14:23:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 14:23:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 14:23:47 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2021-09-13 14:23:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 14:23:51 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 14:25:28 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 11388 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 14:25:28 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 14:25:29 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 14:25:29 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 14:25:29 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32 ms. Found 0 Redis repository interfaces.
+2021-09-13 14:25:32 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 14:25:33 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 14:25:35 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 14:25:35 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 14:25:37 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 14:25:37 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 14:25:39 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 10.972 seconds (JVM running for 11.771)
+2021-09-13 14:25:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 14:25:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 14:25:39 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 14:25:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-09-13 15:36:12 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 2360 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 15:36:12 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 15:36:12 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 15:36:12 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 15:36:13 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2021-09-13 15:36:16 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 15:36:16 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:36:18 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 15:36:18 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:36:20 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 15:36:20 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:36:23 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 11.495 seconds (JVM running for 12.417)
+2021-09-13 15:36:23 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 15:36:23 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 15:36:23 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 15:36:23 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-09-13 15:40:55 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15604 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 15:40:55 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 15:40:56 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 15:40:56 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 15:40:56 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2021-09-13 15:40:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 15:41:00 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:41:02 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 15:41:02 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:41:04 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 15:41:04 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 15:41:06 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 11.207 seconds (JVM running for 12.228)
+2021-09-13 15:41:06 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 15:41:06 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 15:41:06 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 15:41:06 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-09-13 16:01:27 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 940 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 16:01:27 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 16:01:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 16:01:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 16:01:28 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2021-09-13 16:01:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:01:32 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:01:34 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 16:01:34 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:01:36 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 16:01:36 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:01:38 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 11.039 seconds (JVM running for 11.884)
+2021-09-13 16:01:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 16:01:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 16:01:39 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:01:39 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-09-13 16:22:26 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 18020 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 16:22:26 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 16:22:27 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 16:22:27 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 16:22:27 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+2021-09-13 16:22:30 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:22:31 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:22:33 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 16:22:33 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:22:35 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 16:22:35 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:22:37 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 11.398 seconds (JVM running for 12.296)
+2021-09-13 16:22:38 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 16:22:38 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 16:22:38 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:22:38 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-09-13 16:37:14 INFO  main com.jyw.storeApplicationTests Starting storeApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 13532 (started by will in C:\Users\will\IdeaProjects\store)
+2021-09-13 16:37:14 INFO  main com.jyw.storeApplicationTests No active profile set, falling back to default profiles: default
+2021-09-13 16:37:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-09-13 16:37:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-09-13 16:37:15 INFO  main org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2021-09-13 16:37:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:37:19 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:37:21 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-13 16:37:21 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:37:23 ERROR org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:563)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:214)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2128)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2101)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2081)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1883)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1864)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1345)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1191)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:599)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:574)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:526)
+	... 12 common frames omitted
+2021-09-13 16:37:23 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-13 16:37:25 INFO  main com.jyw.storeApplicationTests Started storeApplicationTests in 10.952 seconds (JVM running for 11.798)
+2021-09-13 16:37:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-09-13 16:37:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-09-13 16:37:25 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-13 16:37:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already

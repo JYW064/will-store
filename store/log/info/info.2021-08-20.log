@@ -1,0 +1,185 @@
+2021-08-20 15:14:24 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 22456 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 15:14:24 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 15:14:25 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 15:14:25 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 15:14:25 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 15:14:25 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1220 ms
+2021-08-20 15:14:26 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:14:26 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:14:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 15:14:27 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-20 15:14:27 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2a140ce5:0/SimpleConnection@7b1a30e5 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 50532]
+2021-08-20 15:14:27 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.53 seconds (JVM running for 5.022)
+2021-08-20 15:19:16 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 20136 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 15:19:16 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 15:19:17 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 15:19:17 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 15:19:17 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 15:19:17 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1317 ms
+2021-08-20 15:19:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 15:19:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 15:19:19 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 15:19:19 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-20 15:19:19 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#6acffb2d:0/SimpleConnection@4b4927e5 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59300]
+2021-08-20 15:19:19 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.642 seconds (JVM running for 5.264)
+2021-08-20 15:27:35 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 15:27:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 15:27:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-20 15:27:35 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-20 15:27:35 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-20 16:39:18 INFO  http-nio-8080-exec-2 com.jyw.common.aop.RetryAspect 更新。。
+2021-08-20 16:42:18 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.jyw.service.impl.OrderServiceImpl 订单号：8dd51ab293044458945fe6647b835e23超时取消。。。
+2021-08-20 16:42:18 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 com.jyw.common.aop.RetryAspect 更新。。
+2021-08-20 16:42:47 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 24080 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 16:42:47 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:42:48 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:42:48 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 16:42:48 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:42:48 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1046 ms
+2021-08-20 16:42:48 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:42:48 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:42:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:42:49 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-20 16:42:49 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#6acffb2d:0/SimpleConnection@33751d49 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 49951]
+2021-08-20 16:42:49 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.991 seconds (JVM running for 4.4)
+2021-08-20 16:42:59 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:42:59 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:42:59 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-20 16:43:05 INFO  http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-20 16:43:05 INFO  http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-20 16:45:57 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16020 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 16:45:57 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:45:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:45:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 16:45:58 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:45:58 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1031 ms
+2021-08-20 16:45:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:45:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:46:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:46:00 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-20 16:46:00 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#6acffb2d:0/SimpleConnection@33751d49 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 54732]
+2021-08-20 16:46:00 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.074 seconds (JVM running for 4.452)
+2021-08-20 16:46:35 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:46:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:46:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-20 16:46:35 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-20 16:46:35 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-20 16:48:35 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 3204 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 16:48:35 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 16:48:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 16:48:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 16:48:36 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 16:48:37 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 16:48:37 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1256 ms
+2021-08-20 16:48:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 16:48:37 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-20 16:48:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-20 16:48:38 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-20 16:48:38 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7eeb38b2:0/SimpleConnection@73aaec54 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 61586]
+2021-08-20 16:48:38 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.344 seconds (JVM running for 4.74)
+2021-08-20 16:48:46 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-20 16:48:46 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-20 16:48:46 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-20 16:48:46 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-20 16:48:46 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-20 17:00:36 INFO  main com.jyw.DemoApplicationTests Starting DemoApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 21936 (started by will in C:\Users\will\Desktop\���زֿ�\demo)
+2021-08-20 17:00:36 INFO  main com.jyw.DemoApplicationTests No active profile set, falling back to default profiles: default
+2021-08-20 17:00:39 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:00:40 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:00:42 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-08-20 17:00:42 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:00:44 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:00:46 INFO  main com.jyw.DemoApplicationTests Started DemoApplicationTests in 10.393 seconds (JVM running for 11.305)
+2021-08-20 17:00:46 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-08-20 17:00:46 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-08-20 17:00:46 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:00:46 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-08-20 17:39:39 INFO  main com.jyw.DemoApplicationTests Starting DemoApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 23708 (started by will in C:\Users\will\Desktop\���زֿ�\demo)
+2021-08-20 17:39:39 INFO  main com.jyw.DemoApplicationTests No active profile set, falling back to default profiles: default
+2021-08-20 17:39:43 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:39:44 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:39:46 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-08-20 17:39:46 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:39:48 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:39:50 INFO  main com.jyw.DemoApplicationTests Started DemoApplicationTests in 11.105 seconds (JVM running for 11.971)
+2021-08-20 17:39:50 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-08-20 17:39:50 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-08-20 17:39:50 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:39:50 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-08-20 17:48:56 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 9400 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-20 17:48:56 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-20 17:48:57 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-20 17:48:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-20 17:48:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-20 17:48:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1006 ms
+2021-08-20 17:49:14 INFO  main com.jyw.DemoApplicationTests Starting DemoApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16348 (started by will in C:\Users\will\Desktop\���زֿ�\demo)
+2021-08-20 17:49:14 INFO  main com.jyw.DemoApplicationTests No active profile set, falling back to default profiles: default
+2021-08-20 17:49:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:49:18 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:49:20 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-08-20 17:49:20 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:49:22 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 17:49:24 INFO  main com.jyw.DemoApplicationTests Started DemoApplicationTests in 10.323 seconds (JVM running for 11.202)
+2021-08-20 17:49:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-08-20 17:49:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-08-20 17:49:25 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 17:49:25 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-08-20 18:01:04 INFO  main com.jyw.DemoApplicationTests Starting DemoApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 11272 (started by will in C:\Users\will\Desktop\���زֿ�\demo)
+2021-08-20 18:01:04 INFO  main com.jyw.DemoApplicationTests No active profile set, falling back to default profiles: default
+2021-08-20 18:01:07 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 18:01:08 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 18:01:10 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-08-20 18:01:10 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 18:01:12 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 18:01:14 INFO  main com.jyw.DemoApplicationTests Started DemoApplicationTests in 10.625 seconds (JVM running for 11.527)
+2021-08-20 18:01:14 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-08-20 18:01:14 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-08-20 18:01:14 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 18:01:14 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already
+2021-08-20 19:47:37 INFO  main com.jyw.DemoApplicationTests Starting DemoApplicationTests using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 9008 (started by will in C:\Users\will\Desktop\���زֿ�\demo)
+2021-08-20 19:47:37 INFO  main com.jyw.DemoApplicationTests No active profile set, falling back to default profiles: default
+2021-08-20 19:47:40 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-20 19:47:41 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 19:47:43 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-08-20 19:47:43 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 19:47:45 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-08-20 19:47:47 INFO  main com.jyw.DemoApplicationTests Started DemoApplicationTests in 10.494 seconds (JVM running for 11.417)
+2021-08-20 19:47:47 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Waiting for workers to finish.
+2021-08-20 19:47:47 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Successfully waited for workers to finish.
+2021-08-20 19:47:47 INFO  SpringContextShutdownHook org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-20 19:47:47 INFO  SpringContextShutdownHook org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Shutdown ignored - container is not active already

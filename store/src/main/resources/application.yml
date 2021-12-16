@@ -1,0 +1,62 @@
+#端口号
+server:
+  port: 8081
+
+#配置链接数据库
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mall?useSSL=false&serverTimezone=GMT&allowPublicKeyRetrieval=true
+    username: mall
+    password: 7D5caR2cYKcZYrNr
+
+###本地数据库
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/mall?useSSL=false&serverTimezone=GMT&allowPublicKeyRetrieval=true
+#    username: root
+#    password: 123
+
+  #redis配置
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        max-active: 1024
+
+  #分页pageHelper
+  pagehelper:
+    helper-dialect: mysql
+    reasonable: true
+    support-methods-arguments: true
+
+  #配置rabbitMq 服务器
+  rabbitmq:
+#   host: 192.168.131.130
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+
+    #消息确认配置项
+    #确认消息已发送到交换机(Exchange)
+    publisher-confirm-type: correlated
+    #确认消息已发送到队列(Queue)
+    publisher-returns: true
+
+    listener:
+      simple:
+        acknowledge-mode: manual #采用手动应答
+        concurrency: 1
+#        retry:
+#          enabled: false #是否支持重试
+#          max-attempts: 10
+
+logging.level.org.springframework.boot.autoconfigure: ERROR #spring boot 启动信息去掉不需要的CONDITIONS EVALUATION REPORT
+
+#指定mapper映射文件的位置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+

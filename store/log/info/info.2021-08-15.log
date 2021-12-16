@@ -1,0 +1,1005 @@
+2021-08-15 14:34:16 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 8696 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:34:16 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:34:17 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:34:17 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:34:17 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:34:17 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 841 ms
+2021-08-15 14:34:18 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:34:18 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:34:18 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:34:19 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:34:19 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:34:19 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#773014d3:0/SimpleConnection@2616b618 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 56364]
+2021-08-15 14:34:19 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.712 seconds (JVM running for 4.01)
+2021-08-15 14:34:28 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:34:28 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:34:28 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 14:34:28 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:34:28 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:34:56 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 11460 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:34:56 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:34:57 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:34:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:34:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:34:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 893 ms
+2021-08-15 14:34:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:34:58 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:34:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:34:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:34:59 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:34:59 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#34451ed8:0/SimpleConnection@5d2a86c0 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 58237]
+2021-08-15 14:34:59 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.823 seconds (JVM running for 4.241)
+2021-08-15 14:35:04 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:35:04 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:35:04 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 14:35:04 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:35:04 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:36:44 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15760 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:36:44 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:36:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:36:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:36:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:36:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 917 ms
+2021-08-15 14:36:45 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:36:45 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:36:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:36:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:36:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:36:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7364eed1:0/SimpleConnection@4b93dd6a [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59090]
+2021-08-15 14:36:46 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.784 seconds (JVM running for 4.11)
+2021-08-15 14:36:53 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:36:53 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:36:53 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 14:36:53 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:36:53 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:37:47 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 14812 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:37:47 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:37:48 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:37:48 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:37:48 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:37:48 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 887 ms
+2021-08-15 14:37:49 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:37:49 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:37:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:37:50 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:37:50 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:37:50 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#773014d3:0/SimpleConnection@2616b618 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57874]
+2021-08-15 14:37:50 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.802 seconds (JVM running for 4.105)
+2021-08-15 14:40:03 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 1136 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:40:03 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:40:04 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:40:04 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:40:04 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:40:04 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 840 ms
+2021-08-15 14:40:04 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:40:04 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:40:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:40:05 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:40:05 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:40:05 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#34451ed8:0/SimpleConnection@5d2a86c0 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 56886]
+2021-08-15 14:40:05 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.734 seconds (JVM running for 3.978)
+2021-08-15 14:40:11 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:40:11 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:40:11 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 14:40:11 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:40:11 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:41:44 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 14580 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:41:44 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:41:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:41:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:41:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:41:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 902 ms
+2021-08-15 14:41:46 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:41:46 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:41:46 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:41:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:41:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:41:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#79e7188e:0/SimpleConnection@625487a6 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 63139]
+2021-08-15 14:41:47 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.822 seconds (JVM running for 4.194)
+2021-08-15 14:41:49 INFO  http-nio-8080-exec-4 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:41:49 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:41:49 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 14:51:15 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 11756 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:51:15 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:51:16 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:51:16 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:51:16 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:51:16 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 951 ms
+2021-08-15 14:51:17 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:51:17 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:51:17 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:51:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:51:18 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:51:18 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#39dec536:0/SimpleConnection@787d1f9c [delegate=amqp://admin@192.168.131.130:5672/, localPort= 52074]
+2021-08-15 14:51:18 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.779 seconds (JVM running for 4.064)
+2021-08-15 14:51:24 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:51:24 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:51:24 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 14:51:33 INFO  http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:51:33 INFO  http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:53:04 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 2296 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:53:04 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:53:04 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:53:04 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:53:04 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:53:05 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:53:05 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 944 ms
+2021-08-15 14:53:05 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:53:05 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:53:05 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:53:06 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:53:06 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:53:06 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#31973858:0/SimpleConnection@5c59a0f7 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59950]
+2021-08-15 14:53:06 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.873 seconds (JVM running for 4.273)
+2021-08-15 14:53:26 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:53:26 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:53:26 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 14:53:26 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:53:26 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:55:35 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 7264 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:55:35 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:55:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:55:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:55:36 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:55:36 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 960 ms
+2021-08-15 14:55:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:55:37 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:55:37 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:55:37 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:55:37 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:55:37 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7fedb795:0/SimpleConnection@73bb573d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 58337]
+2021-08-15 14:55:38 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.833 seconds (JVM running for 4.141)
+2021-08-15 14:55:42 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:55:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:55:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 14:55:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:55:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 14:57:28 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 17196 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 14:57:28 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 14:57:29 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 14:57:29 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 14:57:29 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 14:57:29 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 828 ms
+2021-08-15 14:57:30 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 14:57:30 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 14:57:30 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 14:57:31 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 14:57:31 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 14:57:31 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#67bb4dcd:0/SimpleConnection@2bba35ef [delegate=amqp://admin@192.168.131.130:5672/, localPort= 65255]
+2021-08-15 14:57:31 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.799 seconds (JVM running for 4.153)
+2021-08-15 14:57:34 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 14:57:34 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 14:57:34 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 14:57:34 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 14:57:34 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:02:23 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19688 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:02:23 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:02:24 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:02:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:02:24 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:02:24 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 872 ms
+2021-08-15 15:02:24 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:02:25 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:02:25 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:02:25 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:02:25 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:02:25 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#4cb957b8:0/SimpleConnection@47569167 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 50745]
+2021-08-15 15:02:25 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.761 seconds (JVM running for 4.067)
+2021-08-15 15:02:30 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:02:30 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:02:30 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:02:31 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:02:31 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:03:58 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 20264 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:03:58 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:03:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:03:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:03:59 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:03:59 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 848 ms
+2021-08-15 15:04:00 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:04:00 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:04:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:04:01 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:04:01 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:04:01 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7fedb795:0/SimpleConnection@73bb573d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 54238]
+2021-08-15 15:04:01 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.769 seconds (JVM running for 4.096)
+2021-08-15 15:04:03 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:04:03 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:04:03 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:04:03 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:04:03 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:06:29 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19784 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:06:29 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:06:30 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:06:30 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 926 ms
+2021-08-15 15:06:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:06:31 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:06:32 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:06:32 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:06:32 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#e700eba:0/SimpleConnection@3cc9632d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 62962]
+2021-08-15 15:06:32 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.829 seconds (JVM running for 4.134)
+2021-08-15 15:06:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:06:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:06:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:06:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:07:15 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 364 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:07:15 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:07:16 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:07:16 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:07:16 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:07:16 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 889 ms
+2021-08-15 15:07:17 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:07:17 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:07:17 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:07:18 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:07:18 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:07:18 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7fedb795:0/SimpleConnection@73bb573d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 64755]
+2021-08-15 15:07:18 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.889 seconds (JVM running for 4.238)
+2021-08-15 15:13:34 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19308 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:13:34 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:13:35 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:13:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:13:35 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:13:35 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 848 ms
+2021-08-15 15:13:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:13:35 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:13:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:13:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:13:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:13:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#77f4c040:0/SimpleConnection@67d8faec [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57219]
+2021-08-15 15:13:36 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.733 seconds (JVM running for 4.09)
+2021-08-15 15:13:41 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:13:41 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:13:41 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:13:41 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:13:41 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:13:54 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 18888 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:13:54 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:13:55 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:13:55 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:13:55 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:13:55 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 862 ms
+2021-08-15 15:13:56 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:13:56 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:13:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:13:57 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:13:57 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:13:57 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#7fedb795:0/SimpleConnection@73bb573d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59248]
+2021-08-15 15:13:57 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.738 seconds (JVM running for 4.04)
+2021-08-15 15:14:01 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:14:01 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:14:01 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 15:14:02 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:14:02 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:15:34 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16496 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:15:34 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:15:35 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:15:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:15:35 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:15:35 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 860 ms
+2021-08-15 15:15:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:15:35 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:15:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:15:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:15:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:15:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#51e754e1:0/SimpleConnection@5ba1b62e [delegate=amqp://admin@192.168.131.130:5672/, localPort= 61910]
+2021-08-15 15:15:36 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.662 seconds (JVM running for 3.967)
+2021-08-15 15:15:39 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:15:39 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:15:39 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 15:15:39 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:15:39 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:24:53 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19992 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:24:53 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:24:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:24:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:24:53 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:24:54 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:24:54 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 854 ms
+2021-08-15 15:24:54 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:24:54 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:24:54 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:24:55 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:24:55 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:24:55 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#1a538ed8:0/SimpleConnection@6b2aafbc [delegate=amqp://admin@192.168.131.130:5672/, localPort= 55669]
+2021-08-15 15:24:55 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.72 seconds (JVM running for 4.035)
+2021-08-15 15:24:59 INFO  http-nio-8080-exec-4 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:24:59 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:24:59 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:29:43 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 17220 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:29:43 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:29:44 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:29:44 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:29:44 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:29:44 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 915 ms
+2021-08-15 15:29:45 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:29:45 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:29:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:29:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:29:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:29:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#4cb957b8:0/SimpleConnection@3b57dba4 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 54865]
+2021-08-15 15:29:46 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.845 seconds (JVM running for 4.169)
+2021-08-15 15:30:22 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 17940 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:30:22 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:30:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:30:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:30:23 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:30:23 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 901 ms
+2021-08-15 15:30:23 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:30:24 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:30:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:30:24 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:30:24 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:30:24 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#31973858:0/SimpleConnection@5c59a0f7 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 64997]
+2021-08-15 15:30:24 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.756 seconds (JVM running for 4.098)
+2021-08-15 15:30:44 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 4284 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:30:44 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:30:44 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:30:44 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:30:44 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:30:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:30:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 903 ms
+2021-08-15 15:30:45 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:30:45 INFO  main org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping Adding welcome page: class path resource [static/index.html]
+2021-08-15 15:30:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:30:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:30:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:30:46 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#31973858:0/SimpleConnection@5c59a0f7 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59492]
+2021-08-15 15:30:46 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.781 seconds (JVM running for 4.174)
+2021-08-15 15:31:56 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19520 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:31:56 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:31:56 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:31:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:31:56 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:31:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:31:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 881 ms
+2021-08-15 15:31:57 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:31:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:31:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:31:58 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:31:58 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#34451ed8:0/SimpleConnection@5d2a86c0 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 63585]
+2021-08-15 15:31:58 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.75 seconds (JVM running for 4.116)
+2021-08-15 15:33:21 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 20188 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:33:21 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:33:22 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:33:22 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:33:22 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:33:22 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 850 ms
+2021-08-15 15:33:22 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:33:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:33:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:33:23 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:33:23 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#684e8c9d:0/SimpleConnection@101330ad [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57672]
+2021-08-15 15:33:23 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.65 seconds (JVM running for 4.087)
+2021-08-15 15:34:13 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15552 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:34:13 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:34:14 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:34:14 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:34:14 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:34:14 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 900 ms
+2021-08-15 15:34:15 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:34:15 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:34:16 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:34:16 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:34:16 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#41b64020:0/SimpleConnection@204d9edf [delegate=amqp://admin@192.168.131.130:5672/, localPort= 53632]
+2021-08-15 15:34:16 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.767 seconds (JVM running for 4.072)
+2021-08-15 15:34:24 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:34:24 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:34:24 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 15:34:31 INFO  http-nio-8080-exec-6 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:34:31 INFO  http-nio-8080-exec-6 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:34:37 INFO  http-nio-8080-exec-3 com.jyw.controller.OrderController affafsefsfs沙发沙发沙发沙发沙发沙发ff
+2021-08-15 15:34:37 INFO  http-nio-8080-exec-3 com.jyw.controller.OrderController u鼠回复恢复和服务回复
+2021-08-15 15:34:37 INFO  http-nio-8080-exec-3 com.jyw.service.impl.OrderServiceImpl shibai>>>>>>>>>>>>>>
+2021-08-15 15:34:37 INFO  http-nio-8080-exec-3 com.jyw.service.impl.OrderServiceImpl 失败》》》》》》》》》》》》》》》》》》》
+2021-08-15 15:35:00 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19996 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:35:00 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:35:01 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:35:01 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:35:01 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:35:01 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 881 ms
+2021-08-15 15:35:02 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:35:02 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:35:03 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:35:03 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:35:03 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#684e8c9d:0/SimpleConnection@101330ad [delegate=amqp://admin@192.168.131.130:5672/, localPort= 49320]
+2021-08-15 15:35:03 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.744 seconds (JVM running for 4.07)
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 com.jyw.controller.OrderController affafsefsfs沙发沙发沙发沙发沙发沙发ff
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 com.jyw.controller.OrderController u鼠回复恢复和服务回复
+2021-08-15 15:35:06 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:35:07 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:35:07 INFO  http-nio-8080-exec-1 com.jyw.service.impl.OrderServiceImpl shibai>>>>>>>>>>>>>>
+2021-08-15 15:37:12 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 10072 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:37:12 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:37:12 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:37:12 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:37:12 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:37:13 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:37:13 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 866 ms
+2021-08-15 15:37:13 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:37:13 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:37:14 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:37:14 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:37:14 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#78910096:0/SimpleConnection@6f15f52a [delegate=amqp://admin@192.168.131.130:5672/, localPort= 62312]
+2021-08-15 15:37:14 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.677 seconds (JVM running for 4.033)
+2021-08-15 15:37:26 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15388 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:37:26 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:37:27 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:37:27 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:37:27 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:37:27 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 864 ms
+2021-08-15 15:37:28 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:37:28 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:37:29 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:37:29 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:37:29 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#684e8c9d:0/SimpleConnection@101330ad [delegate=amqp://admin@192.168.131.130:5672/, localPort= 58564]
+2021-08-15 15:37:29 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.673 seconds (JVM running for 4.083)
+2021-08-15 15:38:58 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 5208 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:38:58 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:38:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:38:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:38:59 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:38:59 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 942 ms
+2021-08-15 15:39:00 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:39:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:39:01 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:39:01 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:39:01 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#684e8c9d:0/SimpleConnection@101330ad [delegate=amqp://admin@192.168.131.130:5672/, localPort= 51025]
+2021-08-15 15:39:01 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.854 seconds (JVM running for 4.283)
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-1 com.jyw.controller.OrderController [Ljava.lang.StackTraceElement;@22c1528
+2021-08-15 15:39:08 INFO  http-nio-8080-exec-2 com.jyw.controller.OrderController [Ljava.lang.StackTraceElement;@67bfa118
+2021-08-15 15:41:30 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16804 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 15:41:30 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 15:41:31 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 15:41:31 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 15:41:31 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 15:41:31 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 982 ms
+2021-08-15 15:41:31 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 15:41:31 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 15:41:32 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 15:41:32 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 15:41:32 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#684e8c9d:0/SimpleConnection@101330ad [delegate=amqp://admin@192.168.131.130:5672/, localPort= 64062]
+2021-08-15 15:41:32 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.998 seconds (JVM running for 4.404)
+2021-08-15 15:41:53 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 15:41:53 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 15:41:53 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 15:41:53 INFO  http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 15:41:53 INFO  http-nio-8080-exec-2 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 15:41:59 INFO  http-nio-8080-exec-2 com.jyw.controller.OrderController 更新失败，数据被访问。。。
+2021-08-15 16:14:22 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16408 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:14:22 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:14:23 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:14:23 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:14:23 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:14:23 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1062 ms
+2021-08-15 16:14:24 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:14:24 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:14:25 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:14:25 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:14:25 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3c9ef6e9:0/SimpleConnection@2c8ff67 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 61701]
+2021-08-15 16:14:25 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.045 seconds (JVM running for 4.42)
+2021-08-15 16:14:56 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15864 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:14:56 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:14:56 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:14:56 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:14:56 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:14:57 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:14:57 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 989 ms
+2021-08-15 16:14:57 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:14:57 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:14:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:14:58 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:14:58 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#38fb50f8:0/SimpleConnection@37d0d373 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57961]
+2021-08-15 16:14:58 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.954 seconds (JVM running for 4.283)
+2021-08-15 16:16:32 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:16:32 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:16:32 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 16:16:32 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:16:32 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:17:19 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19572 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:17:19 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:17:20 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:17:20 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:17:20 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:17:20 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1012 ms
+2021-08-15 16:17:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:17:21 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:17:22 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:17:22 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:17:22 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#38fb50f8:0/SimpleConnection@3f3c8b60 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 56684]
+2021-08-15 16:17:22 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.081 seconds (JVM running for 4.405)
+2021-08-15 16:17:33 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 20236 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:17:33 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:17:34 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:17:34 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:17:34 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:17:34 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 962 ms
+2021-08-15 16:17:35 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:17:35 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:17:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:17:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:17:36 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#38fb50f8:0/SimpleConnection@3f3c8b60 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 52497]
+2021-08-15 16:17:36 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.959 seconds (JVM running for 4.343)
+2021-08-15 16:17:48 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:17:48 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:17:48 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 16:17:49 INFO  http-nio-8080-exec-9 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:17:49 INFO  http-nio-8080-exec-9 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:18:48 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 18216 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:18:48 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:18:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:18:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:18:49 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:18:49 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1083 ms
+2021-08-15 16:18:50 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:18:50 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:18:51 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:18:51 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:18:51 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#38fb50f8:0/SimpleConnection@3f3c8b60 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 52644]
+2021-08-15 16:18:51 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.153 seconds (JVM running for 4.633)
+2021-08-15 16:18:56 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:18:56 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:18:56 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 16:18:56 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:18:56 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:22:44 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19440 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:22:44 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:22:45 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:22:45 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:22:45 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:22:45 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1220 ms
+2021-08-15 16:22:46 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:22:46 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:22:47 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:22:47 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:22:47 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3c9ef6e9:0/SimpleConnection@31228d83 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57202]
+2021-08-15 16:22:47 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:22:47 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:22:47 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 16:22:47 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.214 seconds (JVM running for 4.597)
+2021-08-15 16:22:47 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:22:47 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:26:45 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 20236 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:26:45 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:26:46 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:26:46 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:26:46 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:26:46 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1155 ms
+2021-08-15 16:26:46 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:26:47 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:26:47 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:26:47 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:26:47 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3c9ef6e9:0/SimpleConnection@31228d83 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 65145]
+2021-08-15 16:26:47 INFO  http-nio-8080-exec-4 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:26:47 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:26:47 INFO  http-nio-8080-exec-4 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 16:26:47 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.28 seconds (JVM running for 4.749)
+2021-08-15 16:26:47 INFO  http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:26:48 INFO  http-nio-8080-exec-3 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:29:14 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 5908 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:29:14 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:29:15 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:29:15 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:29:15 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:29:16 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:29:16 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1015 ms
+2021-08-15 16:29:16 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:29:16 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:29:17 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:29:17 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:29:17 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#608cd501:0/SimpleConnection@3f357c9d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 49739]
+2021-08-15 16:29:17 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.032 seconds (JVM running for 4.387)
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:1
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:2
+2021-08-15 16:29:20 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:3
+2021-08-15 16:30:50 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 9476 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:30:50 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:30:51 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:30:51 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:30:51 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:30:51 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 987 ms
+2021-08-15 16:30:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:30:52 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:30:52 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:30:52 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:30:52 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#608cd501:0/SimpleConnection@3f357c9d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 60059]
+2021-08-15 16:30:52 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.986 seconds (JVM running for 4.343)
+2021-08-15 16:30:54 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:30:54 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:30:54 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.service.impl.OrderServiceImpl 更新失败，数据已被修改，正在重试。。。
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:1
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.service.impl.OrderServiceImpl 更新失败，数据已被修改，正在重试。。。
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:2
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.service.impl.OrderServiceImpl 更新失败，数据已被修改，正在重试。。。
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:3
+2021-08-15 16:30:55 INFO  http-nio-8080-exec-1 com.jyw.service.impl.OrderServiceImpl 更新失败，数据已被修改，正在重试。。。
+2021-08-15 16:32:35 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 17896 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 16:32:35 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 16:32:36 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 16:32:36 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 16:32:36 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 16:32:36 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1000 ms
+2021-08-15 16:32:37 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 16:32:37 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 16:32:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 16:32:38 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 16:32:38 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#608cd501:0/SimpleConnection@3f357c9d [delegate=amqp://admin@192.168.131.130:5672/, localPort= 61174]
+2021-08-15 16:32:38 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.956 seconds (JVM running for 4.302)
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 更新失败，数据已被修改，正在重试。。。
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:1
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:2
+2021-08-15 16:32:42 INFO  http-nio-8080-exec-1 com.jyw.common.Aop.RetryAspect 重试次数:3
+2021-08-15 17:08:48 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16972 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:08:48 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:08:49 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:08:49 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:08:49 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:08:49 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 996 ms
+2021-08-15 17:08:49 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:08:50 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:08:50 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:08:50 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:08:50 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3b97907c:0/SimpleConnection@fe42a09 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 51286]
+2021-08-15 17:08:50 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.979 seconds (JVM running for 4.385)
+2021-08-15 17:09:19 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 15800 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:09:19 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:09:20 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:09:20 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:09:20 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:09:20 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 963 ms
+2021-08-15 17:09:21 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:09:21 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:09:22 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:09:22 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:09:22 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3b97907c:0/SimpleConnection@fe42a09 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 51281]
+2021-08-15 17:09:22 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.896 seconds (JVM running for 4.26)
+2021-08-15 17:09:35 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 17:09:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:09:35 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 0 ms
+2021-08-15 17:09:43 INFO  http-nio-8080-exec-4 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 17:09:43 INFO  http-nio-8080-exec-4 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 17:09:52 INFO  http-nio-8080-exec-8 com.jyw.common.Aop.RetryAspect 更新失败，数据已被修改，正在重试。。。
+2021-08-15 17:12:25 INFO  http-nio-8080-exec-2 com.jyw.common.Aop.RetryAspect 更新失败，数据已被修改，正在重试。。。
+2021-08-15 17:13:37 INFO  http-nio-8080-exec-7 com.jyw.common.Aop.RetryAspect 更新失败，数据已被修改，正在重试。。。
+2021-08-15 17:15:37 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16980 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:15:37 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:15:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:15:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:15:38 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:15:38 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1021 ms
+2021-08-15 17:15:38 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:15:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:15:39 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:15:39 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:15:39 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#3b97907c:0/SimpleConnection@4adf3582 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 59334]
+2021-08-15 17:15:39 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.011 seconds (JVM running for 4.404)
+2021-08-15 17:16:03 INFO  http-nio-8080-exec-1 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 17:16:03 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:16:03 INFO  http-nio-8080-exec-1 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 17:16:03 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 17:16:03 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+2021-08-15 17:38:37 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19672 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:38:37 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:38:38 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:38:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:38:38 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:38:38 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1041 ms
+2021-08-15 17:38:38 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:38:38 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:38:39 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:38:39 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:38:39 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2a140ce5:0/SimpleConnection@5458c71e [delegate=amqp://admin@192.168.131.130:5672/, localPort= 57733]
+2021-08-15 17:38:39 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.027 seconds (JVM running for 4.386)
+2021-08-15 17:40:09 INFO  http-nio-8080-exec-3 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 17:40:09 INFO  http-nio-8080-exec-3 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:40:09 INFO  http-nio-8080-exec-3 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 17:40:49 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 19604 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:40:49 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:40:50 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:40:50 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:40:50 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:40:50 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1087 ms
+2021-08-15 17:40:51 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:40:52 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:40:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:40:53 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:40:53 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#2a140ce5:0/SimpleConnection@5458c71e [delegate=amqp://admin@192.168.131.130:5672/, localPort= 62108]
+2021-08-15 17:40:53 INFO  main com.jyw.DemoApplication Started DemoApplication in 3.879 seconds (JVM running for 5.236)
+2021-08-15 17:40:57 INFO  http-nio-8080-exec-2 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 17:40:57 INFO  http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:40:57 INFO  http-nio-8080-exec-2 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 17:41:59 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 1032 (C:\Users\will\Desktop\本地仓库\demo\target\classes started by will in C:\Users\will\Desktop\本地仓库\demo)
+2021-08-15 17:41:59 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-08-15 17:42:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-08-15 17:42:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-15 17:42:00 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-08-15 17:42:00 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1003 ms
+2021-08-15 17:42:01 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-15 17:42:01 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-08-15 17:42:02 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-15 17:42:02 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [192.168.131.130:5672]
+2021-08-15 17:42:02 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Created new connection: rabbitConnectionFactory#5ac53c06:0/SimpleConnection@61a704d3 [delegate=amqp://admin@192.168.131.130:5672/, localPort= 50715]
+2021-08-15 17:42:02 INFO  main com.jyw.DemoApplication Started DemoApplication in 2.932 seconds (JVM running for 4.269)
+2021-08-15 17:42:09 INFO  http-nio-8080-exec-3 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-15 17:42:09 INFO  http-nio-8080-exec-3 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2021-08-15 17:42:09 INFO  http-nio-8080-exec-3 org.springframework.web.servlet.DispatcherServlet Completed initialization in 1 ms
+2021-08-15 17:42:09 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+2021-08-15 17:42:09 INFO  http-nio-8080-exec-1 com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.

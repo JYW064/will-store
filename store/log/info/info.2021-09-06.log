@@ -1,0 +1,52 @@
+2021-09-06 20:10:52 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 8092 (C:\Users\will\IdeaProjects\demo\target\classes started by will in C:\Users\will\IdeaProjects\demo)
+2021-09-06 20:10:52 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-09-06 20:10:53 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-09-06 20:10:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-09-06 20:10:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-09-06 20:10:53 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1308 ms
+2021-09-06 20:10:54 INFO  main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2021-09-06 20:14:42 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 16512 (C:\Users\will\IdeaProjects\will-store\target\classes started by will in C:\Users\will\IdeaProjects\will-store)
+2021-09-06 20:14:42 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-09-06 20:14:43 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-09-06 20:14:43 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-09-06 20:14:43 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1154 ms
+2021-09-06 20:14:43 INFO  main org.apache.catalina.core.StandardService Stopping service [Tomcat]
+2021-09-06 20:17:57 INFO  main com.jyw.DemoApplication Starting DemoApplication using Java 13.0.2 on LAPTOP-G01P7JM1 with PID 11696 (C:\Users\will\IdeaProjects\will-store\target\classes started by will in C:\Users\will\IdeaProjects\will-store)
+2021-09-06 20:17:57 INFO  main com.jyw.DemoApplication No active profile set, falling back to default profiles: default
+2021-09-06 20:17:58 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2021-09-06 20:17:58 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.AprLifecycleListener Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.AprLifecycleListener APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.AprLifecycleListener APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.AprLifecycleListener OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-09-06 20:17:58 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2021-09-06 20:17:58 INFO  main org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1178 ms
+2021-09-06 20:17:59 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-06 20:18:00 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+2021-09-06 20:18:00 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-06 20:18:00 INFO  main org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:02 INFO  main org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Broker not available; cannot force queue declarations during start: java.net.ConnectException: Connection refused: no further information
+2021-09-06 20:18:02 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:04 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:06 INFO  main com.jyw.DemoApplication Started DemoApplication in 9.307 seconds (JVM running for 10.359)
+2021-09-06 20:18:11 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@1412682c: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2021-09-06 20:18:11 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:13 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:21 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2 org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer Restarting Consumer@467611f5: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2021-09-06 20:18:21 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
+2021-09-06 20:18:23 INFO  org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-3 org.springframework.amqp.rabbit.connection.CachingConnectionFactory Attempting to connect to: [127.0.0.1:5672]
